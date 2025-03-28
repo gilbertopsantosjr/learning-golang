@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	matematica "utils/math"
+	nickname "utils/math"
 )
 
 func main() {
-	s := matematica.Soma(1, 2)
+	s := nickname.Soma(1, 2)
 	fmt.Println("result:", s)
 }
